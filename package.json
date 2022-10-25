@@ -1,0 +1,24 @@
+{
+  "name": "rovelstars.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "reejs": "^0.5.4"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovelstars/rovelstars.com.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rovelstars/rovelstars.com/issues"
+  },
+  "homepage": "https://github.com/rovelstars/rovelstars.com#readme"
+}

@@ -1,0 +1,9 @@
+{
+    "imports": {
+        "preact": "https://esm.sh/preact@10.10.0",
+        "react": "https://esm.sh/preact@10.10.0",
+        "htm": "https://esm.sh/htm@3.1.1",
+        "@twind/cdn": "https://esm.run/@twind/cdn@next",
+        "@twind/preset-tailwind": "https://esm.run/@twind/preset-tailwind@next"
+    }
+}

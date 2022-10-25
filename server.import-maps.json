@@ -1,0 +1,9 @@
+{
+    "imports": {
+      "reejs": "./node_modules/reejs/server/index.js",
+      "twind": "https://esm.sh/twind@next",
+      "preact-ssr": "https://esm.sh/preact-render-to-string@5.2.0",
+      "h3": "https://esm.sh/h3@0.7.16?target=node",
+      "undici": "https://esm.sh/undici@5.10.0?target=node&bundle"
+    }
+  }
