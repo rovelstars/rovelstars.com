@@ -21,7 +21,7 @@ export default function () {
 export function head() {
   return React.createElement(React.Fragment, null
     , React.createElement('title', null, "Rovel Stars - Return Policy"    )
-    , React.createElement('reejs-script', { src: "/__reejs/serve/navbar.js",})
+    , React.createElement('script', { src: "/__reejs/serve/navbar.js",})
   );
 }
 export let config = Container.config;

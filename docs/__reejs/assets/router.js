@@ -96,7 +96,15 @@ export default class Router {
                         currentHead.querySelector(node.tagName).replaceWith(node);
                     }
                     else{
+			    logger(node,"node");
+			    if(node.tagName=="REEJS-SCRIPT"){
+				    let script = document.createElement("script");
+				    script.src = s.attributes.src.value;
+				    document.head.appendChild(script);
+			    }
+			    else{
                   currentHead.appendChild(node);
+			    }
                     }
                 });
             }
