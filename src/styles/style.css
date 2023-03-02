@@ -1,0 +1,15 @@
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+button {
+	-webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
